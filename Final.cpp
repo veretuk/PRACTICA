@@ -53,7 +53,7 @@ void printZod(ZNAK* arrayZnak) {
 	setlocale(LC_CTYPE, "rus");
 	for (int i = 0; i<N; i++)
 	{
-		printf("Ce?: %s %s %s\nCiacre: %s\nAD : %d.%d.%d\n\n", &arrayZnak->name[0], &arrayZnak->name[1], &arrayZnak->name[2], arrayZnak->zodiak, arrayZnak->bday[0], arrayZnak->bday[1], arrayZnak->bday[2]);
+		printf("Ce?: %s %s %s\nCiaccre: %s\nAD : %d.%d.%d\n\n", &arrayZnak->name[0], &arrayZnak->name[1], &arrayZnak->name[2], arrayZnak->zodiak, arrayZnak->bday[0], arrayZnak->bday[1], arrayZnak->bday[2]);
 		arrayZnak++;
 	}
 }
